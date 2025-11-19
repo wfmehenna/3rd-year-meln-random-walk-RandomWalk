@@ -7,7 +7,7 @@ import time   # This line imports the 'time' module, which is used to pause the 
 # This list holds the possible outcomes when rolling a standard six-sided dice.
 dice_poosibilities = [1, 2, 3, 4, 5, 6]
 
-# This is a simple function to simulate a single dice roll.
+# This is a simple function to simulate a single dice rolll.
 def roll():
     # 'random.choice()' picks one item at random from the provided list.
     return random.choice(dice_poosibilities)
